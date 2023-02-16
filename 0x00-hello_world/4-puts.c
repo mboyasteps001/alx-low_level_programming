@@ -1,14 +1,14 @@
 #include<stdio.h>
-/*
- * main-entry point
+/**
+ * main - Entry point
  *
  * Description: C program that prints with puts function
  *
- * Return: always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	puts("\"Programming is like building multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
