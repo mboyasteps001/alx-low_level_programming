@@ -3,7 +3,6 @@
 /**
  * jack_baeur - returns every minute in a day
  *
- * Return:Always 0
  */
 
 void jack_baeur(void)
