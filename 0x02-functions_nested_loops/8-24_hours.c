@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * jack_baeur - returns every minute in a day
+ * jack_bauer - returns every minute in a day
  *
  */
 
-void jack_bauerr(void)
+void jack_bauer(void)
 {
 	int hours, minutes;
 
