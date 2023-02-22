@@ -9,13 +9,14 @@
  */
 int main(void)
 {
-	int num1 = 1, num2 = 2, fibb, i;
+	long int num1 = 1, num2 = 2, fibb;
+	int i;
 
-	printf("%d, %d, ", num1, num2);
+	printf("%ld, %ld, ", num1, num2);
 	for (i = 3; i <= 50; i++)
 	{
 		fibb = num1 + num2;
-		printf("%d", fibb);
+		printf("%ld", fibb);
 		if (i != 50)
 			printf(", ");
 		num1 = num2;
