@@ -11,6 +11,7 @@ int main(void)
 {
 	int num1 = 1, num2 = 2, fibb, i;
 
+	printf("%d, %d", num1, num2);
 	for (i = 3; i <= 50; i++)
 	{
 		fibb = num1 + num2;
