@@ -15,6 +15,8 @@ int main(void)
 	for (i = 3; i <= 50; i++)
 	{
 		fibb = num1 + num2;
+		if (fibb == 3)
+			printf(", ");
 		printf("%d", fibb);
 		if (i != 50)
 			printf(", ");
