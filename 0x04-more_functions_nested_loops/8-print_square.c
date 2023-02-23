@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_size - function that prints aquare
+ * print_square - function that prints aquare
  *
  * @size: size if the square
  */
@@ -18,7 +18,7 @@ void print_square(int size)
 		{
 			for (column = 0; column < size; ++column)
 				_putchar('#');
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
