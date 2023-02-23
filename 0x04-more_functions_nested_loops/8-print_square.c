@@ -6,7 +6,7 @@
  * @size: size if the square
  */
 
-void print_size(int size)
+void print_square(int size)
 {
 	int row, column;
 
