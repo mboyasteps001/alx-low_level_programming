@@ -13,7 +13,7 @@ void puts_half(char *str)
 	int counter, i;
 
 	/*loop that count th string to the null character*/
-	for (counter = 0; str[counter]; ++str)
+	for (counter = 0; str[counter]; ++counter)
 		;
 
 	if (counter % 2 == 0)
