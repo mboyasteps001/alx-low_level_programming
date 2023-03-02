@@ -10,7 +10,6 @@
 char *leet(char *str)
 {
 	int i;
-	char *result = str;
 
 	/*Loop each character*/
 	for ( ; *str != '\0'; str++)
@@ -24,5 +23,5 @@ char *leet(char *str)
 			}
 		}
 	}
-	return (result);
+	return (str);
 }
