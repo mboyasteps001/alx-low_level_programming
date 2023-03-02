@@ -6,7 +6,7 @@
  * @dest: First string input argument
  * @src: Second argument
  * @n: Integer input
- * Return: Concatenated string in dest
+ * Return: Concatenated string in dest string
  */
 
 char *_strncat(char *dest, char *src, int n)
@@ -17,5 +17,5 @@ char *_strncat(char *dest, char *src, int n)
 	for (i = 0; i < n && src[i] != '\0'; i++)
 		dest[dest_len + i] = src[i];
 	dest[dest_len + i] = '\0';
-	return (0);
+	return (dest);
 }
