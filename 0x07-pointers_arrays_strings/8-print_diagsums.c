@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * print_diagsum - Function that print sum of diagonal
+ * print_diagsums - Function that print sum of diagonal
  * @a:Input pointers
  * @size: The size of the matrix
  * Return:Nothing
  */
-void print_diagsum(int *a, int size)
+void print_diagsums(int *a, int size)
 {
 	int i, n, m;
 
