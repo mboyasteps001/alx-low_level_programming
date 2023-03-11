@@ -1,6 +1,7 @@
 # ALX-HOLBERTON LOW LEVEL PROGRAMMING
 
 	Welcome to Alx-holberton low-level programming in c language. This repository contains directories with projects that covers different topics in c language that are completed as the part of alx-holberton software engineering programme.
+
 ---
 
 ## Repository structure.
