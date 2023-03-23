@@ -1,3 +1,4 @@
+#include "function_pointers.h"
 #include<stdlib.h>
 /**
   *print_name - Function to print name
@@ -6,7 +7,7 @@
   *Return: Nothing
   */
 
-void print_name(char *name, char (*f)(char *))
+void print_name(char *name, void (*f)(char *))
 {
 	if (name == NULL && f == NULL)
 		return;
