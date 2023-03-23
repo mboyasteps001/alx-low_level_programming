@@ -1,4 +1,4 @@
-#include "function_pointers.hi"
+#include "function_pointers.h"
 /**
   *print_name - Function to print name
   *@name: Input name to print
