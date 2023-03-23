@@ -1,4 +1,3 @@
-#include "function_pointers.h"
 /**
   *print_name - Function to print name
   *@name: Input name to print
@@ -8,6 +7,7 @@
 
 void print_name(char *name, char (*f)(char *))
 {
-	if(name && f)
-		f(name);
+	if(!name && !f)
+		return;
+	f(name);
 }
