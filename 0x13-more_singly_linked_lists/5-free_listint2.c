@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-  *free_listint_t - Function that free all elements in the list
+  *free_listint2 - Function that free all elements in the list
   *@head: Strarting input for the list
   *Return: Nothing
   */
