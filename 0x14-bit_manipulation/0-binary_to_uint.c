@@ -9,20 +9,22 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int decimal = 0, power;
-	int b_len = 0;
+	int len = 0, i;
 
 	if (b == NULL)
 		return (0);
-
-	for (b_len = 0; b[b_len]; b_len++)
+	while (b[len] != '\0')
 	{
-		if (b[b_len] != '0' || b[b_len] != '1')
+		if (b[len] != '0' || b[len] != '1')
 			return (0);
+		len++;
 	}
-	for (power = 1, b_len--, decimal = 0; b_len >= 0; power *= 2, b_len--)
+
+	for (i = len - 1; i >= 0; i--)
 	{
-		if (b[b_len] == '1')
+		if (b[i] == '1')
 			decimal += power;
+		power *= 2;
 	}
 	return (decimal);
 }
