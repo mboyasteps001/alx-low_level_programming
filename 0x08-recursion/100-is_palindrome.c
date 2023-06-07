@@ -5,7 +5,7 @@ int actual_prime(int n, int i);
 /**
  * is_prime_number - Checkif the number is prime
  * @n: The number to be checkeid
- * Return: 0 if its not prime 1 if its prime
+ * Return: 0 if its not prime 1 if its prime number
  */
 int is_prime_number(int n)
 {
